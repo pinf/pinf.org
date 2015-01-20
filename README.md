@@ -14,7 +14,29 @@ that drive in-ALL-aspects-reactive Realtime Distributed Systems.
 
 ## Information Model to represent Systems
 
-WIP: 2015
+### Abstract
+
+It all comes down to the continuum between a principled and functional approach:
+
+  * A **principled approach** favors small primitives applied to **all aspects** to construct a complex system. Note that *all aspects* is truly meant by including *everything involved* in constructing a system from the first action to name the new project folder to every action to build and manipulate the system thereafter.
+
+  * A **functional approach** favors building broader abstractions to reach a goal sooner while loosing potential in the process. Choosing functional over principled is often required as there are no primitives available to model a problem. Other times a functional approach is chosen to save time.
+
+The PINF approach is **rooted in principle** and allows you to build a principled model like a scalable vector graphic with the difference that at any node, PINF can jump to a functional approach to model a subset of the system in that part of the graph to bridge the gap between what is ideal and what is practical.
+
+A system **must be rooted in principle** to be continuously refactorable as only then low-primitives may be manipulated to affect changes in the whole system. If a functional approach is applied it must be manually refactored upon every change.
+
+### Concrete
+
+In a PINF-based system, the system is built from many individual nodes with no central or overreaching tool with authority. Each node knows what it can and cannot do and who it can and cannot talk to but there is no knowledge of the whole in **any** of the parts.
+
+Such a dynamic system becomes difficult to model mentally and thus restrictions and tooling is required to make it visual. Any structure may be created and made visual in numerous ways. The art lies in what to create and how to visualize it so it may be interacted with over time.
+
+Visualization is achieved by having nodes broadcast meta data, collecting such meta data centrally, applying further modeling to it and rendering it dynamically.
+
+### Implementation
+
+The initial **genesis** release of PINF will focus on modeling a system around accepted open technology standards and implement all pieces necessary to build web applications using a **principled first approach**. 
 
 
 ## Philosophy of Composition and Communication
@@ -60,16 +82,16 @@ Most importantly, rather than offering a plethora of features, PINF is focused o
 
 # PINF Roadmap
 
-## 2014
+* [github.com/devcomp-io](https://github.com/devcomp-io) - A 100% open and hackable **UNIX vm hosted** dev system that can be used for collaborative realtime distributed system development. Built on top of [github.com/pinf-io](https://github.com/pinf-io).
+  * 2014 - Phase 1: Prototype and deploy for [firebug.io][http://firebug.io/] only.
+  * 2015 - Phase 2: Make available to everyone.
 
-  * [github.com/devcomp-io/devcomp](https://github.com/devcomp-io/devcomp) - A 100% open and hackable **UNIX vm hosted** dev system that can be used for collaborative realtime distributed system development.
-
-## 2015
-
-  * [github.com/devcomp/devcomp](https://github.com/devcomp/devcomp) - A 100% open and hackable **PINF vm hosted** dev system that can be used for collaborative realtime distributed system development.
+* [github.com/devcomp](https://github.com/devcomp) - A 100% open and hackable **PINF vm hosted** dev system that can be used for collaborative realtime distributed system development. Built on top of [github.com/fireconsole](https://github.com/fireconsole).
+  * 2015 - Phase 1: Prototype and deploy for [firebug.io][http://firebug.io/] only.
+  * 2016 - Phase 2: Make available to everyone.
 
 
 # Contribute
 
-Get involved in any of the above projects or financially support anyone working on above the projects.
+Get involved in any of the above projects or financially support anyone working on the them.
 
